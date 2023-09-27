@@ -7,8 +7,8 @@ Date: June 25, 2023
 Usage:
     $ python script.py
 """
-
-import gdal
+# You also need to change the import here.
+from osgeo import gdal
 from osgeo import osr
 
 def read_raster_file(file_path):
